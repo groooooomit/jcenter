@@ -43,7 +43,7 @@ bintray {
     pkg {
         repo = bintray_repo
         name = bintray_name
-        desc = pom_description
+        desc = bintray_description
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = bintray_licenses

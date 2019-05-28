@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = libraryVersion
+version = pom_version
 
 // 生成源码 jar 包 task
 task sourcesJar(type: Jar) {
@@ -43,7 +43,7 @@ bintray {
     pkg {
         repo = bintray_repo
         name = bintray_name
-        desc = bintray_desc
+        desc = pom_description
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = bintray_licenses

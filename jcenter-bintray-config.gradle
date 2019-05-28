@@ -41,12 +41,12 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = bintrayRepo
-        name = bintrayName
-        desc = libraryDescription
+        repo = bintray_repo
+        name = bintray_name
+        desc = bintray_desc
         websiteUrl = siteUrl
         vcsUrl = gitUrl
-        licenses = allLicenses
+        licenses = bintray_licenses
         publish = true
         publicDownloadNumbers = true
     }

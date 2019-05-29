@@ -1,6 +1,6 @@
 # 发布 android library 到 jcenter
 **本仓库包含了关于通过 bintray.com 将 android library 上传到 jcenter 的文件。** 
-> 因为在 AndroidStudio 中通过 novoda 的方式发布遇到了很多坑（头坑是 Gradle 版本不兼容），所以采用原始的方法。
+> 因为在 AndroidStudio 中通过 [bintray-release](https://github.com/novoda/bintray-release) 的方式发布遇到了很多坑（头坑是 Gradle 版本不兼容），所以采用原始的方法。
 
 ## 第 0 步
 > 注册好 [bintray](https://bintray.com) 的账号，并得到 apikey。

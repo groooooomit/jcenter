@@ -3,7 +3,7 @@
 > 因为在 AndroidStudio 中通过 novoda 的方式发布遇到了很多坑（头坑是 Gradle 版本不兼容），所以采用原始的方法。
 
 ## 第 0 步
-> 注册好 bintray 的账号，并得到 apikey。
+> 注册好 [bintray](https://bintray.com) 的账号，并得到 apikey。
 ## 第 1 步
 > 在 bintray 中创建好一个放 library 仓库。例如 'just'，类型要选 **maven**。
 ## 第 2 步

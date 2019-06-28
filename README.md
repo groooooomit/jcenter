@@ -19,7 +19,7 @@ classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // 用于打包
 ```gradle
 // 以 just-mvp 为例
 ext {
-    gitUrl = 'https://github.com/groooooomit/just-mvp.git'
+    gitUrl = '[https://github.com/groooooomit/just-mvp.git](https://github.com/groooooomit/just-mvp.git)'
     siteUrl = 'https://github.com/groooooomit/just-mvp'
 
     // pom 配置

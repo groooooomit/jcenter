@@ -56,4 +56,4 @@ gradlew clean build install bintrayUpload
 > 将上传的 library 提交到 jcenter 审核。
 > 按钮的位置在 home -> repositories -> just -> mvp -> Actions -> Add to jcenter
 # 致谢
-http://blogs.quovantis.com/how-to-publish-android-library-on-bintrayjcenter/
+[How to publish Android Library on Bintray/JCenter](http://blogs.quovantis.com/how-to-publish-android-library-on-bintrayjcenter/)

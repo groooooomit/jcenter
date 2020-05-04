@@ -16,7 +16,7 @@ classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // 用于打包
 > 在 project 的 local.properties 中配置 bintray.user 和 bintray.apikey。
 ## 第 4 步
 > 在要上传的 library 的 build.gradle 中配置 pom 和 bintray 信息，位置与 dependencies **同级别**。
-以 [just-mvp](https://raw.githubusercontent.com/groooooomit/just-mvp/master/JustMvp/just-mvp/build.gradle) 为例
+以 [just-mvp](https://github.com/groooooomit/just-mvp/blob/master/JustMvp/just-mvp/build.gradle) 为例
 ```gradle
 ext {
     gitUrl = 'https://github.com/groooooomit/just-mvp.git'

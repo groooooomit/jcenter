@@ -9,7 +9,7 @@
 ## 第 2 步
 > 在 project 的 build.gradle 引入插件。
 ```gradle
-classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4' // 用于上传
+classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.5' // 用于上传
 classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // 用于打包
 ```
 ## 第 3 步

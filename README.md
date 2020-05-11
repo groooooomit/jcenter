@@ -23,6 +23,7 @@ ext {
     siteUrl = 'https://github.com/groooooomit/just-mvp'
 
     // pom 配置
+    pom_packaging = 'aar'
     pom_groupId = 'com.bfu'
     pom_artifactId = 'just-mvp'
     pom_version = '1.0.0'

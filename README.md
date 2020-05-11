@@ -23,23 +23,23 @@ ext {
     siteUrl = 'https://github.com/groooooomit/just-mvp'
 
     // pom 配置
-    pom_packaging = 'aar'
-    pom_groupId = 'com.bfu'
-    pom_artifactId = 'just-mvp'
-    pom_version = '1.0.0'
-    pom_name = 'just-mvp'
-    pom_description = 'A mvp library for android.'
-    pom_licenseName = 'The Apache Software License, Version 2.0'
-    pom_licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    pom_developerId = 'groooooomit'
-    pom_developerName = 'groooooomit'
-    pom_developerEmail = 'fubofubo@hotmail.com'
+    pom_packaging       = 'aar'
+    pom_groupId         = 'com.bfu'
+    pom_artifactId      = 'just-mvp'
+    pom_version         = '1.0.0'
+    pom_name            = 'just-mvp'
+    pom_description     = 'A mvp library for android.'
+    pom_licenseName     = 'The Apache Software License, Version 2.0'
+    pom_licenseUrl      = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    pom_developerId     = 'groooooomit'
+    pom_developerName   = 'groooooomit'
+    pom_developerEmail  = 'fubofubo@hotmail.com'
 
     // bintray package 配置
-    bintray_repo = 'just' // 这里的仓库名对应 bintray 中的 maven 仓库
-    bintray_name = 'mvp' // 这将会在仓库 'just' 中生成一个名为 'mvp' 的 package
-    bintray_desc = '> A mvp library for android.'
-    bintray_licenses = ["Apache-2.0"]
+    bintray_repo        = 'just' // 这里的仓库名对应 bintray 中的 maven 仓库
+    bintray_name        = 'mvp' // 这将会在仓库 'just' 中生成一个名为 'mvp' 的 package
+    bintray_desc        = '> A mvp library for android.'
+    bintray_licenses    = ["Apache-2.0"]
 }
 ```
 ## 第 5 步
